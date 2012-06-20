@@ -7,4 +7,4 @@ To know the function of each line just check `cool-head-with-comment.html`
 
 (*Note*: Order sensitive with `.js` & `.css`)
 
-![cool-demo](https://github.com/hzlzh/cool-head/raw/gh-pages/images/cool-head-demo.png) and source code here
+![cool-demo](https://github.com/hzlzh/cool-head/raw/gh-pages/images/cool-head-demo.png)
