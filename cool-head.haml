@@ -1,0 +1,48 @@
+!!! 5
+%html{'lang' => 'en-US', 'dir' => 'ltr'}
+  %head
+    %meta{'charset' => 'UTF-8'}/
+    %meta{:name => "viewport", :content  => "width=device-width"}
+    %title cool-head
+    %meta{:name => "keywords", :content  => ""}
+    %meta{:name => "description", :content  => ""}
+    %meta{:name => "robots", :content  => "noindex,nofollow"}
+    %meta{:name => "apple-mobile-web-app-capable", :content  => "no"}
+    %meta{:name => "Rating", :content  => "Safe For Kids"}
+    %meta{:name => "revisit-after", :content  => "1 days"}
+    %meta{:name => "author", :content  => ""}
+    %meta{:name => "generator", :content  => ""}
+    %link{:rel => "apple-touch-icon", :size => "57x57", :href  => "/apple-touch-icon-57x57.png"}
+    %link{:rel => "apple-touch-icon", :size => "72x72", :href  => "/apple-touch-icon-72x72.png"}
+    %link{:rel => "apple-touch-icon", :size => "114x114", :href  => "/apple-touch-icon-114x114.png"}
+    %link{:rel => "stylesheet", :href  => "css/style.css"}
+    %link{:rel => "alternate", :typr => "application/rss+xml", :title => "RSS Feed", :href  => "css/style.css"}
+    %link{:rel => "canonical", :href  => ""}
+    %link{:rel => "prev", :href  => ""}
+    %link{:rel => "next", :href  => ""}
+
+    %script{:src  => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
+    :javascript
+      !window.jQuery && document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
+    :javascript
+      // here the pre-load JS starts.
+      var Hello = 'World!';
+      // Google analytics code
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-00000000-0']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-    analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  %body
+    %header
+      header
+    %article 
+      %p body
+    %footer
+      footer
+    :javascript
+      // here the post-load JS starts.
