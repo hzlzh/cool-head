@@ -8,19 +8,15 @@
     %meta{:name => "description", :content  => ""}
     %meta{:name => "robots", :content  => "noindex,nofollow"}
     %meta{:name => "apple-mobile-web-app-capable", :content  => "no"}
-    %meta{:name => "Rating", :content  => "Safe For Kids"}
-    %meta{:name => "revisit-after", :content  => "1 days"}
-    %meta{:name => "author", :content  => ""}
-    %meta{:name => "generator", :content  => ""}
     %link{:rel => "apple-touch-icon", :size => "57x57", :href  => "/apple-touch-icon-57x57.png"}
     %link{:rel => "apple-touch-icon", :size => "72x72", :href  => "/apple-touch-icon-72x72.png"}
     %link{:rel => "apple-touch-icon", :size => "114x114", :href  => "/apple-touch-icon-114x114.png"}
     %link{:rel => "stylesheet", :href  => "css/style.css"}
     %link{:rel => "alternate", :typr => "application/rss+xml", :title => "RSS Feed", :href  => "#"}
     %script{:src  => "js/libs/modernizr.js"}
-    %script{:src  => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
+    %script{:src  => "http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"}
     :javascript
-      !window.jQuery && document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
+      !window.jQuery && document.write('<script src="js/jquery.min.js"><\/script>')
     :javascript
       // here the pre-load JS starts.
       
@@ -31,7 +27,7 @@
     
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-    analytics.com/ga.js';
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
   %body
